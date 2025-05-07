@@ -103,7 +103,7 @@ The motors will run slowly if the battery is not available.
 Your prototype will be developed and tested using duck simulators: electronic devices which can replicate the charcteristics of the real ducks.
 An duck simulator is included in your kit to aid development.
  
-![User interface of the duck](duck-config.jpg)
+![User interface of the duck](duck-config.png)
 					
 The duck is configured by setting a group of DIP switches on its internal PCB.
 A push button is used to turn it on and off, and an LED indicates when it is active.
@@ -136,8 +136,7 @@ The radio signal is emmitted from a coil antenna in the plane of the PCB.
 
 Each project group has a budget of £60 to cover all the additional components you'll need for designing and building your prototype. Each group must assign one member as the approver for their component orders. Orders will only proceed after approval from the approver of your group to prevent misordering or duplicate orders.
 
-Your approver will order components by using Online Order Form in EEE Stores website.
-[EEE Stores Website](https://www.imperial.ac.uk/electrical-engineering/internal/stores/)
+Your approver will order components by using Online Order Form in [EEE Stores Website](https://www.imperial.ac.uk/electrical-engineering/internal/stores/).
 
 You will receive an email when the parts are available for collection from Stores on level 1, near the lifts. Orders, assuming the items are in stock, will take up to a week to arrive. You can order some components directly from stores stock and these will usually be available for collection sooner.
 			
