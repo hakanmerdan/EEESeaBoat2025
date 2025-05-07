@@ -42,10 +42,10 @@ The characterisitics of each species are defined below:
 
 | Species  | Infrared | Radio | Magnetic |
 | -------- | -------- | ----- | -------- |
-| Wibbo  | 571Hz      |       | N     |
-| Gribbit  |          | 120Hz   | N     |
-| Snorkle | 353Hz      |       | S      |
-| Zapple |          | 200Hz   | S    |
+| Wibbo  | TBD      |       | N     |
+| Gribbit  |          | TBD   | N     |
+| Snorkle | TBD      |       | S      |
+| Zapple |          | TBD   | S    |
 
 ## Deliverables and assessments
 	

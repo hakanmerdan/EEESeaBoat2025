@@ -126,16 +126,18 @@ The duck cannot simulate the magnetic property in an readily-configurable manner
 In the demo, magnets will be placed inside the duck.
 The polarity of the magnet in your kit depends on the colour of the disc:
 
-<img src="https://user-images.githubusercontent.com/4660308/170473263-a0c64335-e151-4071-b97a-f077de7aaca5.jpg" alt="With the disc flat on a surface, the magnetic field is orientated up from a blue disc and down with an orange disc" width="600"/>
 			
+![Magnetic field direction on an orange disk. With the disc flat on a surface, the magnetic field is orientated down with an orange disc](orange-disc.png)
+
 The radio signal is emmitted from a coil antenna in the plane of the PCB.	
 			
  ## Components and Construction
  ### Ordering components
 
-A tool for ordering components will be released later in the term. Each project group has a budget of £60 to cover all the additional components you'll need for designing and building your prototype.
+Each project group has a budget of £60 to cover all the additional components you'll need for designing and building your prototype. Each group must assign one member as the approver for their component orders. Orders will only proceed after approval from the approver of your group to prevent misordering or duplicate orders.
 
-[Ordering App](https://apps.powerapps.com/play/e/default-2b897507-ee8c-4575-830b-4f8267c3d307/a/3caf3d9d-1fde-4f36-a7ef-1f787e62671d?tenantId=2b897507-ee8c-4575-830b-4f8267c3d307&hint=a0c227c6-9851-466c-8a3e-d05d3216701f&sourcetime=1715268513766&hidenavbar=true)
+Your approver will order components by using Online Order Form in EEE Stores website.
+[EEE Stores Website](https://www.imperial.ac.uk/electrical-engineering/internal/stores/)
 
 You will receive an email when the parts are available for collection from Stores on level 1, near the lifts. Orders, assuming the items are in stock, will take up to a week to arrive. You can order some components directly from stores stock and these will usually be available for collection sooner.
 			
