@@ -17,7 +17,6 @@
 
 ### Individual Reflection Form
 |**Weighting of reflection in module mark:** | **5%** | **You must pass each component**|
-| ----------- | -------- |
 
 | Area of Assessment							| Pass |
 | ----------- | -------- |
