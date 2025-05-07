@@ -1,0 +1,31 @@
+
+\documentclass[tikz]{standalone}
+
+\usepackage{amsmath,amsthm,wasysym,graphicx}
+\usepackage{enumitem}
+
+\usepackage{float,subcaption,mdframed}
+\floatstyle{boxed} 
+\newfloat{fBox}{tbp}{lop}
+
+\usepackage{tabu,array,pdfpages}
+\newtheorem{task}{\Square~Task}
+\newtheorem{ques}{Question}
+
+\usepackage{qrcode,hyperref}
+
+\usepackage{tikz}
+\DeclareRobustCommand\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0pt,minimum size=1.2em] (char) {#1};}}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{calc,matrix}
+\usetikzlibrary{positioning}
+\usetikzlibrary{graphs}
+\usepackage{amsmath}
+			
+
+
+
+\begin{document}
+	\input{operation-duck.tikz}
+\end{document}

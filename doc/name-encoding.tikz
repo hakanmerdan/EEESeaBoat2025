@@ -1,0 +1,73 @@
+\footnotesize
+
+\newcommand{\bw}{0.4}
+
+\newcommand{\af}[4]{
+	\draw (#4) \foreach \x in {1,...,{#3}} {++(0,0) sin ++({#1},{#2}) cos ++({#1},-{#2}) sin ++({#1},-{#2}) cos ++({#1},{#2})} coordinate(end);
+}
+
+\newcounter{swn}\setcounter{swn}{1}
+\newcommand{\ASK}[2]{
+	\coordinate (start) at (#2);
+	\setcounter{swn}{0}
+	\foreach \b in {#1} {
+		\coordinate(swx) at ($(start)+(\theswn*\bw,0)$);
+		\ifnum \b=0
+			\draw (swx) -- ($(swx) + (\bw,0)$) coordinate(end);
+		\fi
+		\ifnum \b=1
+			\af{0.2mm}{2mm}{5}{swx}
+		\fi
+		\stepcounter{swn};
+	}
+}
+
+\begin{tikzpicture}
+
+\af{0.2mm}{2mm}{40}{0,0}
+\coordinate (b0start) at (end);
+\ASK{0,1,1,0,0,0,1,0,0,1}{end}
+\coordinate (b1start) at (end);
+\ASK{0,1,1}{end}
+\coordinate (b1end) at (end);
+\draw[dotted] (end) to ++(1,0);
+
+\coordinate (annostart) at (0,0.6);
+\draw (annostart) -- (annostart-|b0start)
+	node[above=0,midway] {Idle}
+	(annostart-|b0start) -- (annostart-|b1start)
+	node[above=0,midway] {Character 0}
+	(annostart-|b1start) -- (annostart-|b1end)
+	node[above=0] {Character 1};
+\draw[dotted] (annostart-|b1end) to ++(1,0);
+\draw (annostart) to ++(0,-0.2)
+	(annostart-|b0start) to ++(0,-0.2)
+	(annostart-|b1start) to ++(0,-0.2);
+
+\coordinate (annotop) at (0,-0.6);
+\draw (annotop-|b0start) -- ++(0,0.2);
+\draw (annotop-|b0start) -- ++(\bw,0)
+	coordinate (x)
+	node[below=0,midway] {S} 
+	-- ++(0,0.2);
+\draw (x) -- ++(\bw*8,0)
+	coordinate (x)
+	node[below=0,midway] {Data = 0x23 (\#)}
+	-- ++(0,0.2);
+\draw (x) -- ++(\bw,0)
+	coordinate (x)
+	node[below=0,midway] {P}
+	-- ++(0,0.2);
+\draw (x) -- ++(\bw,0)
+	coordinate (x)
+	node[below=0,midway] {S}
+	-- ++(0,0.2);
+\draw (x) -- ++(\bw*2,0)
+	coordinate (x)
+	node[below=0] {Data = ?};
+\draw[dotted] (x) -- ++(1,0);
+\node[anchor=west] at (0,-1.5) {S = Start Bit (Logic 0)};
+\node[anchor=west] at (0,-1.9) {P = Stop Bit (Logic 1)};
+\node[anchor=west] at (0,-2.3) {Data transmitted LSB first};
+
+\end{tikzpicture}
