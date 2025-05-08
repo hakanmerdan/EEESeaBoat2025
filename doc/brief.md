@@ -53,15 +53,15 @@ The project will be assessed with an interim interview, a final report and a dem
 
 ### Reflection
 
-**Date of assessment:  Weekly**
+**Date of assessment:  12 June 2025**
 
-Complete a an online form each week to reflect on your professional practice
+Individual Reflection Form will be added to project report appendix.
 
 Marks weighting: 5%
 
 ### Interim Presentation
 
-**Date of assessment:  29 May 2024**
+**Date of assessment:  29 May 2025**
 
 The interim presentation is an opportunity to show your progress mid-way through the project.
 You should prepare a presentation showing your high-level design, research and technical progress so far.
@@ -71,7 +71,7 @@ Marks weighting: 20%
 	
 ### Report
 
-**Date of submission:  12 June 2024**
+**Date of submission:  12 June 2025**
 
 The report is a formal documentation of all the technical and non-technical work you have done on the project.
 The report should justify all your design decisions and include test results of various aspects of your prototype.
@@ -81,7 +81,7 @@ Marks weighting: 35%
 			
 ### Demo
 
-**Date of assessment:  17 June 2024**
+**Date of assessment:  17 June 2025**
 
 The demo is your opportunity to present your completed project.
 There are two parts to the demo:
@@ -122,5 +122,4 @@ You may wish to consider 3D printing, though you will need to research and teach
 ### Demo Environment
 The demo environment has a smooth floor with some uncrossable obstacles.
 Ducks will be distributed across the environment on the demo arena floor, spaced at least 500mm apart.
-Some ducks are very sensitive and they won't communicate if a heavy rover is nearby.
-The arena is fitted with sensors in one area to check the weight of your rover.
+Some ducks are very sensitive and they won't communicate if a heavy rover is nearby. The arena is fitted with sensors in one area to check the weight of your rover. There will be also height restriction for your EEESeaBoat in this part. If your EEESeaBoat is higher than ~14cm, it cannot go under the bridge to detect the sensitive duck swimming near the port.
