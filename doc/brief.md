@@ -122,5 +122,4 @@ You may wish to consider 3D printing, though you will need to research and teach
 ### Demo Environment
 The demo environment has a smooth floor with some uncrossable obstacles.
 Ducks will be distributed across the environment on the demo arena floor, spaced at least 500mm apart.
-Some ducks are very sensitive and they won't communicate if a heavy rover is nearby.
-The arena is fitted with sensors in one area to check the weight of your rover.
+Some ducks are very sensitive and they won't communicate if a heavy rover is nearby. The arena is fitted with sensors in one area to check the weight of your rover. There will be also height restriction for your EEESeaBoat in this part. If your EEESeaBoat is higher than ~14cm, it cannot go under the bridge to detect the sensitive duck swimming near the port.
