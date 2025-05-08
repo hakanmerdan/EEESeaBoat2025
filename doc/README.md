@@ -105,7 +105,7 @@ An duck simulator is included in your kit to aid development.
  
 ![User interface of the duck](duck-config.png)
 					
-The duck is configured by setting a group of DIP switches on its internal PCB.
+The duck is configured by setting a group of DIP switches on its internal PCB. The switch, button, and LED are accessible without removing the PCB from the duck simulator. It is strongly recommended to keep the PCB inside the duck simulator, as attempting to remove it could easily damage the board.
 A push button is used to turn it on and off, and an LED indicates when it is active.
 A flow chart depicting the operation of the duck is shown below.
 From standby (inactive) mode, press the button to turn on and observe the LED flashes to determine whether the battery has sufficient charge.
@@ -123,7 +123,7 @@ A second press soon afterwards will turn the device off.
 If the duck is left operating for five minutes it will automatically power off to preserve the battery.
 			
 The duck cannot simulate the magnetic property in an readily-configurable manner so you are provided with a small magnet to test this functionality.
-In the demo, magnets will be placed inside the duck's head.
+In the demo, magnets will be placed inside a duck's head.
 With the orange disc flat on a surface, the magnetic field is orientated down with the orange disc:
 
 			
@@ -220,7 +220,7 @@ The magnetic field of the duck is static, meaning that it will not induce a curr
 A moving coil is a possibility, but there are also sensors and switches that can detect a static magnetic field.
 Test any new components and read their datasheets to determine if any amplification or signal processing is required.
 Many sensors are designed to detect if a mechanism is open or closed (e.g. a laptop screen), and they may not work well in this application because the magnetic field may be weak due to the distance of the sensor from the magnet.
-Furthermore, you need to determine the direction of the magnetic field, whether it is up or down, based on the position of the N and S poles of the magnet. In the demonstration, magnets will be placed inside the duck's head as shown below.
+Furthermore, you need to determine the direction of the magnetic field, whether it is up or down, based on the position of the N and S poles of the magnet. In the demonstration, magnets will be placed inside a duck's head as shown below.
 
 ![Magnet location in duck](magnet_location_duck_2.png)
 ![Magnet location in duck](magnet_location_duck_1.png)

@@ -55,7 +55,7 @@ The project will be assessed with an interim interview, a final report and a dem
 
 **Date of assessment:  12 June 2025**
 
-Individual Reflection Form will be added to project report appendix.
+Individual Reflection Form will be added to your project report appendix.
 
 Marks weighting: 5%
 
