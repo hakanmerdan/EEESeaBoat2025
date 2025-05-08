@@ -106,7 +106,7 @@ Magnetic sensors are not covered directly in the labs and you should carry out y
 In certain cases you may wish to detect particular frequencies while blocking others, and you have explored to do this with passive and opamp-based circuits.
 Some sensors will produce a weak signal that will need amplification.
 
-Signals will need to be converted into the digital domain for transmission back to the rover operator.
+Signals will need to be converted into the digital domain for transmission back to the amphibious rover operator.
 Consider whether a binary input is sufficient, or you need to measure the voltage with more precision.
 Research software libraries that can help you determine time-domain characteristics such as frequency or serial data encoding.
 			
@@ -120,6 +120,16 @@ You may wish to consider 3D printing, though you will need to research and teach
 3D printers are available to use with the help of the lab technicians.	
 
 ### Demo Environment
-The demo environment has a smooth floor with some uncrossable obstacles.
+The demo environment has a blue coloured rubber flooring with some uncrossable obstacles.
 Ducks will be distributed across the environment on the demo arena floor, spaced at least 500mm apart.
-Some ducks are very sensitive and they won't communicate if a heavy rover is nearby. The arena is fitted with sensors in one area to check the weight of your rover. There will be also height restriction for your EEESeaBoat in this part. If your EEESeaBoat is higher than ~14cm, it cannot go under the bridge to detect the sensitive duck swimming near the port.
+Some ducks are very sensitive and they The arena is fitted with sensors in one area to check the weight of your amphibious rover. There will be also height restriction for your EEESeaBoat in this part. If your EEESeaBoat is higher than ~14cm, it cannot go under the bridge to detect the sensitive duck swimming near the port. Some ducks are shy and spend most of their time swimming near the lakeside.
+
+Some ducks are shy and spend most of their time swimming near the lakeside. The lakeside is fitted with sensors to check the weight of your rover, and they will show if your rover is too heavy (about more than 750gr). Shy ducks won't communicate if a heavy rover is nearby. 
+There will be also height and width restrictions for your EEESeaBoat in this part of the arena. The width of the lakeside entrance (~250mm) and max (~150mm) and min height (~110mm) of the arch bridge is shown in the photo below. 
+
+![Lakeside Dimensions](lakeside_dimensions.png)
+
+Your amphibious rover must fit the lakeside entrance and go under the bridge to detect the shy duck swimming near the lakeside.
+
+
+
