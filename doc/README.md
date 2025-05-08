@@ -123,8 +123,8 @@ A second press soon afterwards will turn the device off.
 If the duck is left operating for five minutes it will automatically power off to preserve the battery.
 			
 The duck cannot simulate the magnetic property in an readily-configurable manner so you are provided with a small magnet to test this functionality.
-In the demo, magnets will be placed inside the duck.
-The polarity of the magnet in your kit depends on the colour of the disc:
+In the demo, magnets will be placed inside the duck's head/brain.
+With the orange disc flat on a surface, the magnetic field is orientated down with the orange disc:
 
 			
 ![Magnetic field direction on an orange disk. With the disc flat on a surface, the magnetic field is orientated down with an orange disc](orange-disc.png)
