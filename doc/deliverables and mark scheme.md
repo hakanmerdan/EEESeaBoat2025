@@ -10,9 +10,6 @@
 | System Implementation | 30/100 | • Evidence that all system interfaces are implemented, using emulation or placeholder data where necessary <br> • Some implementation of functionality in each subsytem <br> • Some infrastructure is in place for evaluation | • Some progress on subsystem implementation <br> • Some progress on system interfaces allowing interaction of some subsystems | • Some subsystem implementation but little attempt at system integration ||
 | Project Management					| 20/100 | • All group member roles are defined<br> • Risks and contingencies identified<br> • Significant contribution of each group member<br> • Project management framework adopted | • Clear division of work between group members | • Roles of group members are unclear ||
 
-### Professional Practice
-| **Reflections on professional practice (once per week)** | **5/100** |
-| ----------- | -------- |
 
 ### Report
 |**Weighting of presentation in module mark** | **35/100** |
@@ -28,13 +25,12 @@
 
 
 
-### Individual Reflection Form
-|**Weighting of reflection in module mark:** | **You must pass each component**|
+### Professional Practice and Individual Reflection Form 
+|**Weighting of reflection in module mark:** | **5/100** | **You must pass each component**|
 | ----------- | -------- |
 
 | Area of Assessment							| Pass |
 | ----------- | -------- |
-| Security |Adopt a holistic and proportionate approach to the mitigation of security risks|
 | EDI | Adopt an inclusive approach to engineering practice and recognise the responsibilities, benefits and importance of supporting equality, diversity and inclusion |
 | Teamwork |Function effectively as an individual, and as a member or leader of a team. Evaluate effectiveness of own and team performance|
 | Lifelong Learning | Plan and record self-learning and development as the foundation for lifelong learning/CPD|
