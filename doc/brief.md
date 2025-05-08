@@ -125,11 +125,9 @@ Ducks will be distributed across the environment on the demo arena floor, spaced
 Some ducks are very sensitive and they The arena is fitted with sensors in one area to check the weight of your amphibious rover. There will be also height restriction for your EEESeaBoat in this part. If your EEESeaBoat is higher than ~14cm, it cannot go under the bridge to detect the sensitive duck swimming near the port. Some ducks are shy and spend most of their time swimming near the lakeside.
 
 Some ducks are shy and spend most of their time swimming near the lakeside. The lakeside is fitted with sensors to check the weight of your rover, and they will show if your rover is too heavy (about more than 750gr). Shy ducks won't communicate if a heavy rover is nearby. 
-There will be also height and width restrictions for your EEESeaBoat in this part of the arena. The width of the lakeside entrance (~250mm) and max (~150mm) and min height (~110mm) of the arch bridge is shown in the photo below. 
+There will be also height and width restrictions for your EEESeaBoat in this part of the arena. The width of the lakeside entrance (~250mm) and max (~150mm) and min height (~110mm) of the arch bridge is shown in the photo below. Your amphibious rover must fit the lakeside entrance and go under the bridge to detect the shy duck swimming near the lakeside.
 
 ![Lakeside Dimensions](lakeside_dimensions.png)
-
-Your amphibious rover must fit the lakeside entrance and go under the bridge to detect the shy duck swimming near the lakeside.
 
 
 
