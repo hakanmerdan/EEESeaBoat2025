@@ -11,7 +11,7 @@ It will be assessed with an interim interview, a final report, and a demo.
 		
 ## Brief
 
-You are requested to design a remotely-controlled an amphibious rover that can explore a sea area and survey the ducks that live in there.
+You are requested to design a remotely-controlled an amphibious rover, EEESeaBoat, that can explore a sea area and survey the ducks that live in there.
 Using a variety of electromagnetic signals, you must find out the name and species of each duck.
 
 ![Ducks in their environment](duck-arena.jpg)
