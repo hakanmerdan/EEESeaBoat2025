@@ -42,10 +42,10 @@ The characterisitics of each species are defined below:
 
 | Species  | Infrared | Radio | Magnetic |
 | -------- | -------- | ----- | -------- |
-| Wibbo  | TBD      |       | N     |
-| Gribbit  |          | TBD   | N     |
-| Snorkle | TBD      |       | S      |
-| Zapple |          | TBD   | S    |
+| Wibbo  | TBD      |       | Down     |
+| Gribbit  |          | TBD   | Down     |
+| Snorkle | TBD      |       | Up      |
+| Zapple |          | TBD   | Up    |
 
 ## Deliverables and assessments
 	

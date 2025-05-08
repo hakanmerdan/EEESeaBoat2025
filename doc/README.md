@@ -220,7 +220,7 @@ The magnetic field of the duck is static, meaning that it will not induce a curr
 A moving coil is a possibility, but there are also sensors and switches that can detect a static magnetic field.
 Test any new components and read their datasheets to determine if any amplification or signal processing is required.
 Many sensors are designed to detect if a mechanism is open or closed (e.g. a laptop screen), and they may not work well in this application because the magnetic field may be weak due to the distance of the sensor from the magnet.
-Furthermore, you need to determine the direction of the magnetic field, whether it is up or down, based on the position of the N and S poles of the magnet. In the demonstration, magnets will be placed inside a duck's head as shown below.
+Furthermore, you need to determine the direction of the magnetic field, whether it is up or down. In the demonstration, magnets will be placed inside a duck's head as shown below.
 
 ![Magnet location in duck](magnet_location_duck_2.png)
 ![Magnet location in duck](magnet_location_duck_1.png)
