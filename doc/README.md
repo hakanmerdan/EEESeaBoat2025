@@ -123,8 +123,8 @@ A second press soon afterwards will turn the device off.
 If the duck is left operating for five minutes it will automatically power off to preserve the battery.
 			
 The duck cannot simulate the magnetic property in an readily-configurable manner so you are provided with a small magnet to test this functionality.
-In the demo, magnets will be placed inside the duck.
-The polarity of the magnet in your kit depends on the colour of the disc:
+In the demo, magnets will be placed inside the duck's head.
+With the orange disc flat on a surface, the magnetic field is orientated down with the orange disc:
 
 			
 ![Magnetic field direction on an orange disk. With the disc flat on a surface, the magnetic field is orientated down with an orange disc](orange-disc.png)
@@ -220,7 +220,7 @@ The magnetic field of the duck is static, meaning that it will not induce a curr
 A moving coil is a possibility, but there are also sensors and switches that can detect a static magnetic field.
 Test any new components and read their datasheets to determine if any amplification or signal processing is required.
 Many sensors are designed to detect if a mechanism is open or closed (e.g. a laptop screen), and they may not work well in this application because the magnetic field may be weak due to the distance of the sensor from the magnet.
-Furthermore, you need to determine the direction of the magnetic field, whether it is up or down, based on the position of the N and S poles of the magnet. In the demonstration, magnets will be placed in the duck's mouth as shown below.
+Furthermore, you need to determine the direction of the magnetic field, whether it is up or down, based on the position of the N and S poles of the magnet. In the demonstration, magnets will be placed inside the duck's head as shown below.
 
 ![Magnet location in duck](magnet_location_duck.jpg)
    
