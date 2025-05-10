@@ -36,7 +36,7 @@ The data rate is 600 bits per second and each duck's name is four characters lon
 	
 ### Species
 
-The ducks look same, but their colour and shape are superficial. You will need to examine other characteristics - infrared, radio and magnetic - to determine the species of a duck.
+The ducks look same, but their colour and shape are superficial. You will need to examine other characteristics - infrared, radio and magnetic - to determine the species of a duck. 
 
 The characterisitics of each species are defined below:
 
@@ -46,6 +46,9 @@ The characterisitics of each species are defined below:
 | Gribbit  |          | 100Hz   | Down     |
 | Snorkle | 293Hz      |       | Up      |
 | Zapple |          | 150Hz   | Up    |
+
+> [!NOTE]
+> Please expect small deviations in the given values for Infrared and Radio frequencies.
 
 ## Deliverables and assessments
 	
