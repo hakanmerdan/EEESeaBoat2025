@@ -26,8 +26,8 @@
 
 
 ### Professional Practice and Individual Reflection Form 
-|**Weighting of reflection in module mark:** | **5/100** | **You must pass each component** |
-| ----------- | -------- | -------- |
+|**Weighting of reflection in module mark:** | **5/100** | 
+| ----------- | -------- | 
 
 | Area of Assessment							| Pass |
 | ----------- | -------- |
