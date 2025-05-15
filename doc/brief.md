@@ -27,7 +27,7 @@ The quality of the design will be assessed against the following criteria:
 ## Characteristics of the ducks
 ### Name
 
-The ducks communicate with inaudible vocalisations and each duck will tell you its name, if you place a suitable ultrasonic transducer near its mouth.
+The ducks communicate with inaudible vocalisations and each duck will tell you its name, if you place a suitable ultrasonic transducer near it.
 Communication uses a carrier frequency of 40kHz, modulated with two-level *amplitude-shift keying* (on off modulation).
 The name is encoded using ASCII character codes in UART packets with 1 start bit and 1 stop bit.
 The data rate is 600 bits per second and each duck's name is four characters long, including an initial `#` symbol.
