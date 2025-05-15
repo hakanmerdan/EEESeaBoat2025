@@ -179,7 +179,7 @@ The duck's name is encoded as ASCII characters and framed as UART packets in ult
 ![Name encoding](name-encoding.png)
 
 Communication uses a carrier frequency of 40kHz, modulated with a form of amplitude-shift-keying, where an amplitude of 0 represents logic 0 and an amplitude greater than 0 represents logic 1. 
-First you will need to pick up ultrasonic signal by placing a suitable ultrasonic transducer near duck’s mouth. You can then demodulate the signal and convert the demodulated signal into a binary signal with a comparator, which compares the amplitude against a threshold.
+First you will need to pick up ultrasonic signal by placing a suitable ultrasonic transducer near a duck. You can then demodulate the signal and convert the demodulated signal into a binary signal with a comparator, which compares the amplitude against a threshold.
 A threshold can be set with a potential divider, or a more advanced approach is to derive it automatically from the average level of the signal with a low-pass filter.
 
 As you saw in the Lab Skills work, microcontrollers have UART communication built in, and you can use your Metro module to automatically decode the demodulated binary signal into bytes.
